@@ -1,0 +1,128 @@
+*{
+    margin: 0;padding: 0;
+}
+.navbar{
+    padding: 0 40px;
+    height: 58px;
+    position: fixed;
+background-color: white;
+min-width: -moz-available;
+}
+.box{
+    height: 58px;
+    display: flex;
+}
+.left img{
+    width: 12%;
+}
+.right-2 {
+    width: 50%;
+}
+.top, .bottom{
+    width: 50%;
+}
+.left-2{
+    background-image: url(https://preview.colorlib.com/theme/ashion/img/categories/category-1.jpg.webp);
+    width: 50%;
+    height: 40vw;
+    background-position: top;
+    display: flex;
+}
+.men {
+    background-image: url(https://preview.colorlib.com/theme/ashion/img/categories/category-2.jpg.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20vw;
+    background-position: top;
+}
+.kid {
+    background-image: url(https://preview.colorlib.com/theme/ashion/img/categories/category-3.jpg.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20vw;
+    background-position: top;
+}
+.cosmetic{
+    background-image: url(https://preview.colorlib.com/theme/ashion/img/categories/category-4.jpg.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20vw;
+    background-position: top;
+}
+.accessories{
+    background-image: url(https://preview.colorlib.com/theme/ashion/img/categories/category-5.jpg.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20vw;
+    background-position: top;
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width:88%;
+}
+.detail-img1{
+    padding: 6px 15vw 0 3vw;
+}
+.detail-img2{
+    padding: 73px 0vw 0 2vw;
+}
+
+.btn {
+    width: 27%;
+padding-bottom: 2px;
+    font-size: 15px;
+margin: 1.3vw 0 0 0;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #4CAF5000;
+color: #000;
+border-bottom: solid #ca1515;
+border-top: antiquewhite;
+border-left: antiquewhite;
+border-right: antiquewhite;
+    }
+
+    .btn > a:nth-child(1) {
+        text-decoration: none;
+        color: black;
+text-transform: uppercase;
+font-weight: bold;
+        }
+
+        .btn {
+            width: 27%;
+        padding-bottom: 2px;
+            font-size: 15px;
+        margin: 1.3vw 0 0 0;
+          text-decoration: none;
+          display: inline-block;
+          background-color: #4CAF5000;
+        color: #000;
+        border-bottom: solid #ca1515;
+        border-top: antiquewhite;
+        border-left: antiquewhite;
+        border-right: antiquewhite;
+            }
+
+.mid{
+    flex-direction: column;
+    width: 100%;
+    height: 26vw;
+    background-color: red;
+    background-image: url("https://preview.colorlib.com/theme/ashion/img/banner/banner-1.jpg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 2.8vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.mid .connect a img{
+    width: 50px;
+}

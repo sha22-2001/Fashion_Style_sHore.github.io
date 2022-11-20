@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+    <link rel="stylesheet" href="3d.css">
+</head>
+<body> 
+    <header class="navbar flex center justify-spacebetween shadow" style="
+    min-width: -webkit-fill-available;z-index: 100;
+">
+       <div class="left flex ">
+        <img src="images/logo.png" alt="logo" >
+       </div>
+       <div class="right flex">
+        <ul class="menu list flex center">
+            <li><a href="#" class="decoration padding Sanssy">About Us</a></li>
+            <li><a href="#" class="decoration padding Sanssy">Contact</a></li>
+        </ul>
+       </div>
+    </header>
+    <box class="box"></box>
+    <section class="col-1 flex">
+        <div class="left-2 ">
+            <div class="detail detail-img1">
+                <h3 class="Cookie size-heading">Womens Fashion</h3>
+            <p>Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.</p>
+            <button class="btn"><a href="https://www.shoppersstop.com/women/c-A20">Shop Now</a></button>
+            </div>
+        </div>
+        <div class="right-2 flex ">
+            <div class="top direction">
+                
+                <!-- MEN -->
+
+                <div class="men">
+                    <div class="detail detail-img2">
+                        <h3 class="Montserrat size-heading-1">Men’s fashion</h3>
+                    <p>3802 items</p>
+                    <button class="btn"><a href="https://www.shoppersstop.com/men/c-A10">Shop Now</a></button>
+                    </div>
+                </div>
+
+                <!--    cosmetics -->
+
+                <div class="cosmetic">
+                    <div class="detail detail-img2">
+                        <h3 class="Montserrat size-heading-1">Cosmetics</h3>
+                    <p>83 items</p>
+                    <button class="btn"><a href="https://www.shoppersstop.com/search/?text=cosmetics">Shop Now</a></button>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+            <div class="bottom direction">
+
+                <!-- KIDS -->
+
+
+                <div class="kid">
+                    <div class="detail detail-img2">
+                        <h3 class="Montserrat size-heading-1">Kid’s fashion</h3>
+                    <p>9775 items</p>
+                    <button class="btn"><a href="https://www.shoppersstop.com/search/?text=kids">Shop Now</a></button>
+                    </div>
+                </div>
+
+                <!-- ACCESSORIES -->
+
+
+                <div class="accessories">
+                    <div class="detail detail-img2">
+                        <h3 class="Montserrat size-heading-1">Accessories</h3>
+                    <p>5537 items</p>
+                    <button class="btn"><a href="https://www.shoppersstop.com/search/?q=accessories%3Arelevance%3AinStockFlag%3Atrue%3AcategoryName%3AAccessories&text=accessories&startRange=&endRange=">Shop Now</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="hero Cookie">
+        <h3>Gallery</h3>
+        <div class="carousel">
+            
+            <ul>
+                <li><img src="images/img1.png" alt=""></li>
+                <li><img src="images/img2.png" alt=""></li>
+                <li><img src="images/img3.png" alt=""></li>
+                <li><img src="images/img4.png" alt=""></li>
+                <li><img src="images/img5.png" alt=""></li>
+                <li><img src="images/img6.png" alt=""></li>
+                <li><img src="images/img7.png" alt=""></li>
+                <li><img src="images/img8.png" alt=""></li>
+                <li><img src="images/img9.png" alt=""></li>
+                <li><img src="images/img10.png" alt=""></li>
+                <li><img src="images/img11.png" alt=""></li>
+                <li><img src="images/img12.png" alt=""></li>
+                <li><img src="images/img13.png" alt=""></li>
+                <li><img src="images/img14.png" alt=""></li>
+                <li><img src="images/img15.png" alt=""></li>
+                <li><img src="images/img16.png" alt=""></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <div class="mid Cookie">
+        <h2>Thanks for using our service</h2>
+        <div class="connect">
+        <a href="https://www.linkedin.com/in/shayan-hore-652650201/"><img src="images/linkedin.png" alt=""></a>
+        <a href="https://github.com/sha22-2001"><img src="images/git.png" alt=""></a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+    <script>
+        $('.carousel').flipster(
+            {
+                style:'carousel',
+                spacing: -0.3,
+            }
+        );
+    </script>
+</body>
+</html>

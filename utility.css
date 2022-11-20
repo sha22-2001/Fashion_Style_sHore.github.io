@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.decoration{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-style: normal;
+    color: rgb(25, 23, 23);
+}
+.list{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.center{
+    align-items: center;
+}
+.justify-spacebetween{
+    justify-content: space-between;
+}
+.padding{
+    padding: 0 30px;
+}
+.Sanssy{
+    font-family: 'Syne Mono', monospace;
+    font-weight: bold;
+}
+.direction-row{
+    flex-direction: column;
+}
+.Cookie{
+    font-family: 'Cookie', cursive;
+}
+.size-heading{
+    font-size: 3.5rem;
+}
+.size-heading-1{
+    font-size: 1.4rem;
+    
+}
+.Montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.flex-colum{
+    flex-direction: column;
+}
